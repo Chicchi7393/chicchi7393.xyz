@@ -1,0 +1,47 @@
+@font-face {
+font-family: 'BeonMedium';
+src: url('beon-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;}
+body {background-color: #000;
+color: #ddd;
+margin: 10%;
+font-family: 'Inter', 'Roboto', sans-serif;
+max-width: 50ch;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+@media only screen and (min-width: 800px){
+ body {margin: 10% 0 10% 10%;}
+ body { background-image: linear-gradient(90deg, #000000ff, #00000000), url('Wic0hzuBdBQ-HD.jpg');}
+}
+a { color: #3DBCC2; text-decoration: none;}
+p { text-align: justify; line-height: 1.6;}
+h1, h2, h3, summary { font-family: 'BeonMedium';
+ text-transform: uppercase;
+ color: red;
+ text-shadow: 0px 0px 12px currentColor;
+ letter-spacing: 1px;}
+h1 { font-size: 3rem; }
+header,footer,details {padding: 8px;}
+img { max-width: 100%; vertical-align: middle;}
+nav ul { list-style-type: none; padding-left: 0;}
+nav li { display: inline-block; margin: 0 8px;}
+li { padding: 8px 0;}
+hr { border: none; text-align: center;}
+hr:before {content: "--- --- ---";
+font-family: monospace;
+color: #ccc;}
+details { border: 2px solid red; box-shadow: 0px 0px 8px red;}
+summary {font-weight: bold;}
+button, a.btn { padding: 6px 12px;
+background-color: #0e0e0e;
+background-image: linear-gradient(#333333, #1e1e1e);
+border: 1px solid #1e1e1e;
+color: inherit;}
+@media (prefers-color-scheme: light){
+body {background-color:#eee; color: #555;}
+hr:before {color: #777;}
+button, a.btn {background-color: #eee;
+background-image: linear-gradient(#eee, #ccc);
+border-color: #eee;}
+}
